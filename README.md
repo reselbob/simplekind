@@ -2,7 +2,7 @@
 A project that demonstrates how used KinD and the MetalLB LoadBalancer to create a load balanced Kubernetes cluster.
 
 **CREDIT:** This project builds off of the work done by 
-[Venkat Nagappan](vhttps://twitter.com/VenkatNagappan) on his YouTube video found [here](https://youtu.be/zNbqxPRTjFg).
+[Venkat Nagappan](https://twitter.com/VenkatNagappan) on his YouTube video found [here](https://youtu.be/zNbqxPRTjFg).
 
 ## Setting Up Kind under KataCoda
 
@@ -168,7 +168,7 @@ Usable range            - 172.19.0.1 - 172.19.255.254
 
 ```
 
-**Step 12:** Create the ConfigMap for MetalLB using `vi`
+**Step 12:** Create the ConfigMap for MetalLB using `vi` getting the range of addresses to include from the values provided in the field, `Usable range` from the output of the previous step.
 
 `vi metallb-config.yaml`
 
