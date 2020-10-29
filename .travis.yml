@@ -4,7 +4,7 @@ services:
     - docker
 branches:
     only:
-    - master
+    - main
 before_install:
     - echo before_install  
 script: 
