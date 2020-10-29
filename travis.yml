@@ -1,0 +1,11 @@
+language: default
+os: ubuntu
+services:
+    - docker
+branches:
+    only:
+    - master
+before_install:
+    - echo before_install  
+script: 
+    - echo script
