@@ -6,6 +6,6 @@ branches:
     only:
     - main
 before_install:
-    - echo before_install  
+    - pwd
 script: 
-    - echo script
+    - pwd
