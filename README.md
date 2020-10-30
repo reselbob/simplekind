@@ -1,4 +1,6 @@
 # simplekind
+[![Build Status](https://travis-ci.org/reselbob/simplekind.svg?branch=main)](https://travis-ci.org/reselbob/simplekind)
+
 A project that demonstrates how to use [KinD](https://kind.sigs.k8s.io/) and the [MetalLB Load Balancer](https://metallb.universe.tf/) to create a multi-node, load balanced Kubernetes cluster that runs on a single Ubuntu VM running under [Katacoda](https://katacoda.com/courses/ubuntu/playground).
 
 **CREDIT:** This project builds off of the work done by 
